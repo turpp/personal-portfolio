@@ -4,8 +4,7 @@ import MainDiv from './Components/MainDiv';
 
 function App() {
   return (
-    <div className="App">
-      <p>There is going to be a bunch of cool stuff here about me</p>
+    <div className="App w-screen h-screen bg-indigo-100 flex content-center">
       <MainDiv/>
     </div>
   );
