@@ -1,10 +1,12 @@
 import React from 'react'
 import ProfileCard from './ProfileCard'
+import AboutMe from './AboutMe'
 
 function MainDiv(){
     return (
-        <div className='flex flex-col m-auto w-2/3 content-center h-3/4 bg-white'>
+        <div className='flex flex-row m-auto w-2/3 content-center h-3/4 bg-white'>
             <ProfileCard/>
+            <AboutMe/>
         </div>
     )
 }
