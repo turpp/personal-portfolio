@@ -18,8 +18,14 @@ function ProfileCard(){
 </div>
 <br></br>
             <hr></hr>
-
-            <button className="rounded-lg border-4 border-black mt-2 p-2 w-50">Download Resume</button>
+        <div className='grid grid-cols-2 flex justify-between'>
+            <div className='border-r-2'>
+            <button className=" ">Download Resume</button>
+            </div>
+            <div>
+            <button className=' '>Contact Me</button>
+            </div>
+            </div>
         </div>
     )
 }
