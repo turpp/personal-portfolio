@@ -6,8 +6,8 @@ import Dev from '../photos/dev-black.png'
 
 function ProfileCard(){
     return (
-        <div className= "bg-blue-50 my-auto w-2/5 h-full">
-            <img src={ProfilePic} className='object-cover h-2/3 mx-auto'/>
+        <div className= "bg-blue-50 my-auto w-3/5 h-5/6 filter drop-shadow-xl">
+            <img src={ProfilePic} className='object-cover h-2/3 max-h-96 mx-auto'/>
             <p className="text-5xl">Tripp White</p>
             <p className="text-2xl">Software Engineer</p>
             <br></br>
