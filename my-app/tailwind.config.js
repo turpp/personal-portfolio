@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       maxHeight:{
         'mainDiv': '800px'
+      },
+      fontFamily:{
+        'newFont':['Trebuchet MS']
       }
     },
   },
