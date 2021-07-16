@@ -21,7 +21,7 @@ function MainDiv(){
 
     return (
         <div className='flex flex-row m-auto w-3/4 content-center items-center h-5/6 max-h-mainDiv font-newFont'>
-            <NavBar/>
+            <NavBar setPage={setShowPage}/>
             <ProfileCard/>
             {displayPage()}            
         </div>
