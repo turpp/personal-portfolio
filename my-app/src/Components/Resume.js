@@ -2,7 +2,7 @@ import React from 'react'
 import ATUlogo from '../photos/ATU-logo.jpeg'
 import FlatironLogo from '../photos/FlatironLogo.png'
 
-function Resume(){
+export default function Resume(){
     return(
         <div className="flex w-full bg-white h-3/4 rounded-sm">
             <div className='border-b-2'>
