@@ -3,6 +3,7 @@ import ProfileCard from './ProfileCard'
 import AboutMe from './AboutMe'
 import NavBar from './NavBar'
 import Resume from './Resume'
+import Blog from './Blog'
 
 function MainDiv(){
 
@@ -14,6 +15,8 @@ function MainDiv(){
             return <AboutMe/>
         case "resume":
             return <Resume/>
+        case 'blog':
+            return <Blog/>
         default:
             break;
     }
