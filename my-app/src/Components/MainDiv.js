@@ -4,6 +4,7 @@ import AboutMe from './AboutMe'
 import NavBar from './NavBar'
 import Resume from './Resume'
 import Blog from './Blog'
+import Contact from './Contact'
 
 function MainDiv(){
 
@@ -17,6 +18,8 @@ function MainDiv(){
             return <Resume/>
         case 'blog':
             return <Blog/>
+        case 'contact':
+            return <Contact/>
         default:
             break;
     }
