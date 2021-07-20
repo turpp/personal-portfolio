@@ -29,10 +29,15 @@ function MainDiv(){
 }
 
     return (
-        <div className='flex flex-row m-auto w-3/4 content-center items-center h-5/6 max-h-mainDiv font-newFont'>
+        
+         <div className='grid grid-cols-2  font-newFont'>
+            <div className='col-span-2'>
             <NavBar setPage={setShowPage}/>
-            <ProfileCard/>
-            {displayPage()}            
+            </div>
+            <div>
+            {/* <ProfileCard setPage={setShowPage}/>
+            {displayPage()}             */}
+        </div>
         </div>
     )
 }
