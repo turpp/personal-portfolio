@@ -1,12 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ProfilePic from '../photos/profilePic.jpeg'
 import Github from '../photos/GitHub-Mark-32px.png'
 import LinkedIn from '../photos/LI-In-Bug.png'
 import Dev from '../photos/dev-black.png'
+import NavBar from '../Components/NavBar'
 
-function ProfileCard(){
+function ProfileCard(props){
+
+    
+
     return (
-        <div className= "bg-blue-50 my-auto w-3/5 h-5/6 filter drop-shadow-xl rounded-md">
+        <div className= "bg-blue-50  w-full drop-shadow-xl rounded-md mb-4">
             <img src={ProfilePic} className='object-cover h-2/3 max-h-96 mx-auto rounded-md'/>
             <p className="text-5xl">Tripp White</p>
             <p className="text-2xl">Software Engineer</p>
@@ -18,8 +22,8 @@ function ProfileCard(){
 </div>
 <br></br>
             <hr></hr>
-        <div className='grid grid-cols-2 flex justify-between'>
-            <div className='border-r-2'>
+        <div className='flex justify-around'>
+            <div className=''>
             <button className=" ">Download Resume</button>
             </div>
             <div>

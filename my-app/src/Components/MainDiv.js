@@ -30,13 +30,13 @@ function MainDiv(){
 
     return (
         
-         <div className='grid grid-cols-2  font-newFont'>
-            <div className='col-span-2'>
+         <div className='grid grid-cols-2 font-newFont'>
+            <div className='col-span-2 sticky top-0'>
             <NavBar setPage={setShowPage}/>
             </div>
-            <div>
-            {/* <ProfileCard setPage={setShowPage}/>
-            {displayPage()}             */}
+            <div className='w-full col-span-2 mb-32'>
+            <ProfileCard setPage={setShowPage}/>
+            {displayPage()}            
         </div>
         </div>
     )
