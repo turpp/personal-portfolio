@@ -3,7 +3,7 @@ import React from 'react'
 
 function AboutMe(){
     return(
-        <div className="flex w-full bg-white h-3/4 rounded-sm">
+        <div className="flex w-full bg-white rounded-sm p-4">
             <div className='flex-1 overflow-auto'>
                 <p className=' font-newFont text-2xl font-bold p-2 text-left '>About Me</p>
                 <hr></hr>
