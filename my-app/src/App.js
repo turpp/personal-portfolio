@@ -4,7 +4,7 @@ import MainDiv from './Components/MainDiv';
 
 function App() {
   return (
-    <div className="App w-screen h-screen bg-gradient-to-r from-green-400 to-blue-500">
+    <div className="App w-screen h-full bg-gradient-to-r from-green-400 to-blue-500">
       <MainDiv/>
     </div>
   );
