@@ -34,10 +34,12 @@ function MainDiv(){
             <div className='col-span-2 sticky top-0'>
             <NavBar setPage={setShowPage}/>
             </div>
-            <div className='w-full col-span-2 mb-32'>
+            <div className='w-full col-span-2 mb-16 border-b-8'>
             <ProfileCard setPage={setShowPage}/>
             {displayPage()}            
+            
         </div>
+        
         </div>
     )
 }
