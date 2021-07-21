@@ -6,10 +6,13 @@ import Resume from './Resume'
 import Blog from './Blog'
 import Contact from './Contact'
 import Projects from './Projects'
+import WM from './modals/WM'
 
 function MainDiv(){
 
     const [showPage, setShowPage] = useState('about')
+    const [showWM, setWM] = useState(true)
+
 
     function displayPage(){
     switch (showPage) {
@@ -22,15 +25,15 @@ function MainDiv(){
         case 'contact':
             return <Contact/>
         case 'project':
-            return <Projects/>
+            return <Projects setWM={setWM}/>
         default:
             break;
     }
 }
 
     return (
-        
-         <div className='grid grid-cols-2 font-newFont'>
+         <div >
+             {showWM ? <WM setWM={setWM}/> :<div className='grid grid-cols-2 font-newFont'> 
             <div className='col-span-2 sticky top-0'>
             <NavBar setPage={setShowPage}/>
             </div>
@@ -39,8 +42,10 @@ function MainDiv(){
             {displayPage()}            
             
         </div>
-        
         </div>
+}
+        </div>
+        
     )
 }
 
