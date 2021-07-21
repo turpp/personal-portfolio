@@ -5,7 +5,7 @@ import myRound from '../photos/myRound.png'
 import TournamentWizard from '../photos/TournamentWizard.png'
 import ecookbook from '../photos/ecookbook.png'
 import movieMadness from '../photos/movieMadness.png'
-export default function Projects(){
+export default function Projects(props){
 
     return(
         <div className="w-full bg-white rounded-sm p-4">
@@ -14,7 +14,7 @@ export default function Projects(){
                 <div className='border-b-2'>
                     <p className='font-newFont text-2xl font-bold p-2 text-left'>Projects</p>
                 </div>
-                <div className='pt-8'>
+                <div className='pt-8' onClick={()=>props.setWM(true)}>
                     <img className='m-auto w-full' src={WM} alt='screen shot of Wealth Management of the Ozarks on Desktop computer'/>
                     <p className=''>Wealth Management of the Ozarks</p>
                 </div>
