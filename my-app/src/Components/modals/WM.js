@@ -12,7 +12,7 @@ export default function WM(props){
             <p className='text-left text-sm pl-4 pb-8 border-b-2'>React.js, React Router, Bootstrap, Firebase</p>
             <div className='flex h-16 items-center justify-evenly' >
                 <a className='h-1/2' href='https://www.theozarkswealth.com'><button className='bg-blue-400 h-full rounded text-white px-8'>Visit</button></a>
-                <button className='bg-black text-white h-1/2 px-8 rounded' onClick={()=>props.setWM(false)}>Close</button>
+                <button className='bg-black text-white h-1/2 px-8 rounded' onClick={()=>props.setModal(false)}>Close</button>
             </div>
             
         </div>
