@@ -9,7 +9,7 @@ export default function Projects(props){
 
     return(
         <div className="w-full bg-white rounded-sm p-4">
-            <div className='overflow-auto'>
+            <div className=''>
             <div className=''>
                 <div className='border-b-2'>
                     <p className='font-newFont text-2xl font-bold p-2 text-left'>Projects</p>

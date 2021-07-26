@@ -13,7 +13,7 @@ export default function Blog(){
 
     return(
     <div className="w-full bg-white rounded-sm p-4">
-        <div className='overflow-auto'>
+        <div className=''>
             <div className='border-b-4'>
                 <p className='font-newFont text-2xl font-bold p-2 text-left'>Blog</p>
                 <p className='font-thin text-sm text-right'><a href='https://dev.to/turpp'>https://dev.to/turpp</a></p>

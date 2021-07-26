@@ -2,7 +2,7 @@ import React from 'react'
 
 function NavBar(props){
     return (
-        <div className="bg-white shadow flex w-full">
+        <div className="bg-white shadow flex w-full sm:flex-col sm:w-3/4 sm:rounded ">
             <button className="grid justify-items-center border-b-2 p-2 w-full" onClick={()=>props.setPage('about')}> 
             <div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -45,7 +45,7 @@ function NavBar(props){
             
         </button>
 
-        <button className="grid justify-items-center  pt-2 w-full border-b-2 " onClick={()=>props.setPage('contact')}>
+        <button className="grid justify-items-center  pt-2 w-full border-b-2 sm:border-b-0 " onClick={()=>props.setPage('contact')}>
             <div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />

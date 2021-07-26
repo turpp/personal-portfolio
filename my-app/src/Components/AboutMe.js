@@ -10,7 +10,7 @@ import rubyonrails from '../photos/rubyonrails.png'
 function AboutMe(){
     return(
         <div className=" w-full bg-white rounded-sm p-4">
-            <div className=' overflow-auto'>
+            <div className=' '>
                 <p className=' font-newFont text-2xl font-bold p-2 text-left '>About Me</p>
                 <hr></hr>
                 <p className=" font-newFont  my-1 text-left pl-2">Hello! I am Tripp White! I am a Full Stack Developer from Arkansas. I am a recovering Financial Advisor and passionate developer. Explore my site to learn more about my unquie story and skill set!</p>

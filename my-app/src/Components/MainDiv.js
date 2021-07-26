@@ -59,16 +59,15 @@ function displayPage(){
         }
     } else{
         return(
-        <div className='grid grid-cols-2 font-newFont'>
-        <div className='col-span-2 sticky top-0'>
-        <NavBar setPage={setShowPage}/>
+        <div className='grid grid-cols-2 font-newFont sm:grid-cols-12 sm:pt-8 sm:h-screen'>
+            <div className='col-span-2 sticky top-0 sm:col-span-2 sm:col-start-2'>
+                <NavBar setPage={setShowPage}/>
+            </div>
+            <div className='w-full col-span-2 mb-16 sm:col-span-8 sm:overflow-auto'>
+                <ProfileCard setPage={setShowPage}/>
+                {displayContent()}            
+            </div>
         </div>
-        <div className='w-full col-span-2 mb-16 border-b-8'>
-        <ProfileCard setPage={setShowPage}/>
-        {displayContent()}            
-        
-    </div>
-    </div>
         )
     }
 }
