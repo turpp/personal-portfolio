@@ -60,11 +60,11 @@ function displayPage(){
     } else{
         return(
         <div className='grid grid-cols-2 font-newFont sm:grid-cols-12 sm:pt-8 sm:h-screen  md:max-w-3xl lg:max-w-screen-xl m-auto'>
-            <div className='col-span-2 sticky top-0 sm:col-start-2 lg:col-start-1 my-auto lg:w-1/2 lg:place-self-end sm:place-self-end sm:mt-4 sm:-mr-4 lg:mt-40' >
+            <div className='col-span-2 sticky top-0 sm:col-start-2 lg:col-start-1 my-auto lg:w-1/2 lg:place-self-end sm:place-self-end sm:mt-4 sm:-mr-4 lg:mt-40 z-50' >
                 <NavBar setPage={setShowPage}/>
             </div>
-            <div className='w-full col-span-2 mb-16 sm:col-span-8 sm:overflow-auto lg:h-5/6 lg:col-span-10 lg:pr-8 lg:m-auto'>
-                <div className='lg:grid lg:grid-cols-12 lg:h-full lg:place-items-center'>
+            <div className='w-full col-span-2 mb-16 sm:col-span-8 sm:overflow-auto lg:h-5/6 lg:col-span-10 lg:pr-8 lg:m-auto '>
+                <div className='lg:grid lg:grid-cols-12 lg:h-full lg:place-items-center '>
                 <ProfileCard setPage={setShowPage}/>
                 {displayContent()}
                 </div>
