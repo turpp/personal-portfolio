@@ -60,12 +60,14 @@ function displayPage(){
     } else{
         return(
         <div className='grid grid-cols-2 font-newFont sm:grid-cols-12 sm:pt-8 sm:h-screen'>
-            <div className='col-span-2 sticky top-0 sm:col-span-2 sm:col-start-2'>
+            <div className='col-span-2 sticky top-0 sm:col-start-2 lg:col-start-1 my-auto lg:w-1/2 place-self-end'>
                 <NavBar setPage={setShowPage}/>
             </div>
-            <div className='w-full col-span-2 mb-16 sm:col-span-8 sm:overflow-auto'>
+            <div className='w-full col-span-2 mb-16 sm:col-span-8 sm:overflow-auto lg:h-5/6 lg:col-span-10 lg:pr-8 lg:m-auto'>
+                <div className='lg:grid lg:grid-cols-12 lg:h-full lg:place-items-center'>
                 <ProfileCard setPage={setShowPage}/>
-                {displayContent()}            
+                {displayContent()}
+                </div>
             </div>
         </div>
         )
@@ -73,7 +75,7 @@ function displayPage(){
 }
 
 
-    return <div>{displayPage()}</div>
+    return <div className=''>{displayPage()}</div>
 }
 
 export default MainDiv

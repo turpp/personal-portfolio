@@ -10,7 +10,7 @@ function ProfileCard(props){
     
 
     return (
-        <div className= "bg-blue-50  w-full drop-shadow-xl rounded-md mb-4">
+        <div className= "bg-blue-50  w-full drop-shadow-xl rounded-md mb-4  lg:col-span-5 lg:shadow-2xl lg:h-5/6">
             <img src={ProfilePic} className='object-cover h-2/3 max-h-96 mx-auto rounded-md pb-4'/>
             <p className="text-5xl">Tripp White</p>
             <p className="text-2xl">Software Engineer</p>

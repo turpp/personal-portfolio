@@ -9,7 +9,7 @@ import rubyonrails from '../photos/rubyonrails.png'
 
 function AboutMe(){
     return(
-        <div className=" w-full bg-white rounded-sm p-4">
+        <div className=" w-full bg-white rounded-sm p-4 lg:col-span-7 lg:h-3/4 lg:overflow-auto ">
             <div className=' '>
                 <p className=' font-newFont text-2xl font-bold p-2 text-left '>About Me</p>
                 <hr></hr>
