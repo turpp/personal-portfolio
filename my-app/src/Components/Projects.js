@@ -8,7 +8,7 @@ import movieMadness from '../photos/movieMadness.png'
 export default function Projects(props){
 
     return(
-        <div className="w-full bg-white rounded-sm p-4 lg:col-span-7 lg:h-3/4 lg:overflow-auto">
+        <div className="w-full bg-white rounded-sm p-4 lg:col-span-7 lg:h-3/4 lg:overflow-auto z-40">
             <div className=''>
             <div className=''>
                 <div className='border-b-2'>

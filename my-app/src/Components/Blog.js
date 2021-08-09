@@ -12,7 +12,7 @@ import howmany from '../photos/howmany.png'
 export default function Blog(){
 
     return(
-    <div className="w-full bg-white rounded-sm p-4 lg:col-span-7 lg:h-3/4 lg:overflow-auto">
+    <div className="w-full bg-white rounded-sm p-4 lg:col-span-7 lg:h-3/4 lg:overflow-auto z-40">
         <div className=''>
             <div className='border-b-4'>
                 <p className='font-newFont text-2xl font-bold p-2 text-left'>Blog</p>
