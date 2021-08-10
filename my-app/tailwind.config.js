@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       maxHeight:{
-        'mainDiv': '800px'
+        'mainDiv': '1000px',
       },
       fontFamily:{
         'newFont':['Trebuchet MS']
