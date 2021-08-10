@@ -16,7 +16,7 @@ export default function Contact(){
 
 
     return(
-        <div className='w-full bg-white rounded-sm p-4 lg:col-span-7 lg:h-3/4 lg:overflow-auto z-40'>
+        <div className='w-full bg-white rounded-sm p-4 lg:col-span-7 lg:h-3/4 lg:overflow-auto z-40 relative'>
             <div className='m-4 h-3/4'>
                     <p className='font-bold text-center text-4xl'>Let's get in touch!</p>
                     <div className='grid justify-items-center h-full'>

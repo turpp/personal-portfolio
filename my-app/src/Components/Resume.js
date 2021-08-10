@@ -4,7 +4,7 @@ import FlatironLogo from '../photos/FlatironLogo.png'
 
 export default function Resume(){
     return(
-        <div className="w-full bg-white rounded-sm p-4 lg:col-span-7 lg:h-3/4 lg:overflow-auto z-40">
+        <div className="w-full bg-white rounded-sm p-4 lg:col-span-7 lg:h-3/4 lg:overflow-auto z-40 relative">
             <div className=''>
                 <div className='border-b-2'>
                     <p className='font-newFont text-2xl font-bold p-2 text-left'>Resume</p>
