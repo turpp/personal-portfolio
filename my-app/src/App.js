@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App relative">
       <Particles
-        className='absolute top-0 left-0 w-screen h-screen'
+        className='absolute top-0 left-0 w-screen h-full lg:h-screen'
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
