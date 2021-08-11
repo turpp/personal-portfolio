@@ -8,8 +8,12 @@ module.exports = {
       },
       fontFamily:{
         'newFont':['Trebuchet MS']
+      },
+      screens: {
+        'desktop': '1350px',
       }
     },
+   
   },
   variants: {
     extend: {},
