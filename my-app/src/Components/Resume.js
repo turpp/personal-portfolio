@@ -12,35 +12,37 @@ export default function Resume(){
                 <div className="grid grid-cols-1 border-b-2">
                     <p className='font-newFont  my-1 text-left pl-2'>An innovative thinker who takes pride in high quality work. My experience of being a business owner ,as a Financial Advisor, gives me the unique skills of leading a team, client relations, problem solving, listening, and a relentless solution focus mindset. I know how to break down problems, find solutions and present these solutions in a simplistic actionable manner. I have a passion for learning and helping others succeed.</p>
                 </div>
-                <div className='grid grid-cols-1 border-b-2'>
-                    <div className='col-span-1'>
-                        <img src={ATUlogo} alt='Arkansas Tech University Logo' className='w-1/2 m-auto mt-4'/>
+                <div className='grid grid-cols-6 border-b-2'>
+                    <div className='col-span-2'>
+                        <img src={ATUlogo} alt='Arkansas Tech University Logo' className='w-3/4 m-auto mt-4'/>
                     </div>
-                    <div className='col-span-2 p-4'>
+                    <div className='col-span-4 p-4'>
                         <p className="font-bold text-xl text-center"><u>Arkansas Tech University</u></p>
                         <p className='font-semibold text-sm text-left'>Bachelors of Science in Business Administration in Economics and Finance</p>
                         <p className='mt-4'>
                             <ul className='text-left'>
-                                <li>- Graduated Summa Cum Laude</li>
-                                <li>- Inducted into Beta Gamma Sigma</li>
-                                <li>- Member of Sigma Pi Fraternity International</li>
-                                <li>- Dean’s list every semester of college</li>
+                                <li className =" mb-4">- Graduated Summa Cum Laude</li>
+                                <li className =" mb-4">- Inducted into Beta Gamma Sigma</li>
+                                <li className =" mb-4">- Member of Sigma Pi Fraternity International</li>
+                                <li className =" mb-4">- Dean’s list every semester of college</li>
                             </ul>
                         </p> 
                     </div>
 
-                    <div className='col-span-1'>
-                        <img className='w-1/2 m-auto mt-4' src={FlatironLogo} alt='Arkansas Tech University Logo'/>
+                    <div className='col-span-2 pr-4 self-center'>
+                        <img className='w-full m-auto' src={FlatironLogo} alt='Arkansas Tech University Logo'/>
                     </div>
-                    <div className='col-span-2 p-4'>
+
+                    <div className='col-span-4 p-4'>
                         <p className='font-bold text-xl text-center'><u>Flatiron Schools</u></p>
                         <p className='font-semibold text-sm text-left'>Software Engineering Program</p>
                         <p className='mt-4'>
                             <ul className='text-left'>
-                                <li>- Full Stack Web Development</li>
-                                <li>- Javascript and React.js</li>
-                                <li>- Ruby and Ruby on Rails</li>
-                            </ul>
+                                <li className=' mb-4'>- 6 month coding bootcamp that teaches full stack web development</li>
+                                <li className =" mb-4">- Learned Ruby, Ruby on Rails, Sinatra, Javascript, and React.js</li>
+                                <li className =" mb-4">- Taught advanced concepts like Object Oriented Programming</li>
+                                <li className =" mb-4">- Taught advanced concepts like Object Oriented Programming</li>
+                            </ul  >
                         </p> 
                     </div>
                 </div>
