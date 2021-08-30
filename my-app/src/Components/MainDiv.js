@@ -75,7 +75,7 @@ function displayPage(){
 }
 
 
-    return <div className=''>{displayPage()}</div>
+    return <div className='w-screen h-screen p-16 overflow-auto'>{displayPage()}</div>
 }
 
 export default MainDiv

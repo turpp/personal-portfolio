@@ -4,7 +4,7 @@ import WMscreenShot from '../../photos/WMScreenShot.png'
 export default function WM(props){
 
     return (
-        <div className='bg-white shadow-2xl rounded-sm relative z-40 '>
+        <div className='bg-white shadow-2xl rounded-sm relative w-3/4 m-auto z-40 '>
             <img className='w-full m-auto' src={WMscreenShot} alt='wealth management of the ozarks webpage'/>
             <p className='text-2xl font-bold text-center mt-8'>Wealth Management of the Ozarks</p>
             <p className='p-4'>Wealth Management of the Ozark out of Ozark, Ar appraoched me about developing a website for them. They had never had a website before and was not sure where to start. I helped them research other website from the industry and helped them come up with some guidelines of what they were looking for. I worked hand in hand with them and also LPL Financial Complaince department to make sure the website met all firm and industry requirments.</p>
