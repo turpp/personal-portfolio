@@ -4,7 +4,7 @@ import myRoundScreenShot from '../../photos/myRoundScreenShot.png'
 export default function MyRound(props){
 
     return (
-        <div className='m-4 bg-white shadow-2xl rounded-sm'>
+        <div className='modal-layout'>
             <img src={myRoundScreenShot} alt='Date Sidekick Screen Shot'/>
             <p className='text-2xl font-bold text-center mt-8'>myRound</p>
             <p className='p-4'>myRound is desgin to help golfer improve there golf game. Most stat trackers are overly complicated and do a poor job of representing a golfer round. myRound will give the golfer all the vital stats they need. It will even show the corelation of where the golfers hit the fairway and there proximity to the hole. The data input is very simple and easy to maintain during a round of golf. Also you dont have to play a full round for this appliation to be useful. You can play as many or as little holes as you want and it will still work!</p>

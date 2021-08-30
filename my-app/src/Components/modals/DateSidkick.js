@@ -4,7 +4,7 @@ import DateSidekickScreenShot from '../../photos/DateSidekickScreenShot.png'
 export default function WM(props){
 
     return (
-        <div className='m-4 bg-white shadow-2xl rounded-sm'>
+        <div className='modal-layout'>
             <img src={DateSidekickScreenShot} alt='Date Sidekick Screen Shot'/>
             <p className='text-2xl font-bold text-center mt-8'>Date Sidekick</p>
             <p className='p-4'>Date Sidekick is your assistant to help find and decide on places to go. I use React on the front-end and Rails API on the back end. I also use Yelp-Fusion API to get dynamic data for the application. This is also setup for mobile devices.</p>

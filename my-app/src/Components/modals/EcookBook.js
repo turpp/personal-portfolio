@@ -4,8 +4,8 @@ import ecookBookScreenShot from '../../photos/ecookBookScreenShot.png'
 export default function EcookBook(props){
 
     return (
-        <div className='m-4 bg-white shadow-2xl rounded-sm'>
-            <img src={ecookBookScreenShot} alt='Ecook Book Screen Shot'/>
+        <div className='modal-layout'>
+            <img className='w-full m-auto' src={ecookBookScreenShot} alt='Ecook Book Screen Shot'/>
             <p className='text-2xl font-bold text-center mt-8'>Ecook Book</p>
             <p className='p-4'>EcookBook is a web application built with the Sinatra framework and bootstrap for styling.</p>
             <p className='text-left pl-4'>Technologies Used:</p>

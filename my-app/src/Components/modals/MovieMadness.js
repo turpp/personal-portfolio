@@ -4,7 +4,7 @@ import movieMadnessScreenShot from '../../photos/movieMadnessScreenShot.png'
 export default function MovieMadness(props){
 
     return (
-        <div className='m-4 bg-white shadow-2xl rounded-sm'>
+        <div className='modal-layout'>
             <img src={movieMadnessScreenShot} alt='Movie Madness Screen Shot'/>
             <p className='text-2xl font-bold text-center mt-8'>Movie Madness</p>
             <p className='p-4'>Movie Madness is a ruby application that runs in your terminal. It pulls Information from TMDB website to give the user movie information efficiently and quickly.</p>
